@@ -35,7 +35,7 @@ data = {
 #Initiate Request
 r = requests.post(url,
     headers=headers,
-    auth=('root', 'cf738ace3e5e7c8a'),
+    #auth=('<api-user>', '<api-pass>'),
     data=json.dumps(data),
     verify=False)
 
